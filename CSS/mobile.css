@@ -1,0 +1,1285 @@
+/* =========================================================
+   MOBILE ONLY
+========================================================= */
+
+@media (max-width: 800px) {
+
+    html {
+        scroll-padding-top: 110px;
+    }
+
+
+    /* =====================================================
+       NAVIGATION
+    ===================================================== */
+
+    .navbar {
+        height: auto;
+
+        min-height: 65px;
+
+        padding:
+            14px 20px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+    }
+
+
+    .nav-links {
+        width: 100%;
+
+        display: flex;
+
+        overflow-x: auto;
+
+        gap: 22px;
+
+        padding-bottom: 3px;
+
+        scrollbar-width: none;
+    }
+
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .nav-link {
+        flex-shrink: 0;
+
+        color: #ffffff;
+
+        font-size: 12px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .nav-link:hover {
+        color: #00c8ff;
+    }
+
+
+    /* =====================================================
+       SECTIONS
+    ===================================================== */
+
+    .page-section {
+        min-height: 100vh;
+
+        padding:
+            100px 25px;
+
+        scroll-margin-top: 110px;
+    }
+
+
+    .hero-section {
+        min-height:
+            calc(100vh - 110px);
+
+        padding:
+            0 20px;
+    }
+
+
+    /* =====================================================
+       HERO
+    ===================================================== */
+
+    .hero {
+        width: 100%;
+    }
+
+
+    .hero-scan {
+        display: none;
+    }
+
+
+    .status {
+        gap: 8px;
+
+        margin-bottom: 35px;
+
+        color: #ffffff;
+
+        font-size: 9px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .status .line {
+        width: 35px;
+    }
+
+
+    .hero h1 {
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                42px,
+                12vw,
+                70px
+            );
+
+        letter-spacing: -3px;
+
+        white-space: normal;
+    }
+
+
+    .hero-title,
+    .hero-title span,
+    .hero-metadata {
+        transform: none !important;
+    }
+
+
+    .divider {
+        width: 150px;
+
+        margin:
+            30px auto 25px;
+    }
+
+
+    .role {
+        color: #ffffff;
+
+        font-size: 10px;
+
+        letter-spacing: 3px;
+
+        line-height: 1.8;
+    }
+
+
+    .hero-role.hero-hidden {
+        letter-spacing: 7px;
+    }
+
+
+    .hero-role.hero-visible {
+        letter-spacing: 3px;
+    }
+
+
+    .indicator {
+        color: #ffffff;
+
+        margin-top: 40px;
+    }
+
+
+    .hero-metadata {
+        flex-wrap: wrap;
+
+        gap: 8px;
+
+        max-width: 300px;
+
+        margin:
+            20px auto 0;
+
+        color: #ffffff;
+
+        font-size: 8px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =====================================================
+       SECTION CONTENT
+    ===================================================== */
+
+    .section-label {
+        margin-bottom: 20px;
+
+        color: #00c8ff;
+
+        font-size: 9px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .section-content h2 {
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                42px,
+                13vw,
+                70px
+            );
+
+        letter-spacing: -3px;
+    }
+
+
+    .section-content p {
+        margin-top: 30px;
+
+        color: #ffffff;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+    }
+
+
+    /* =====================================================
+       CURSOR
+    ===================================================== */
+
+    .cursor-glow {
+        display: none;
+    }
+
+
+    /* =====================================================
+       GRID
+    ===================================================== */
+
+    .grid {
+        background-size:
+            50px 50px;
+
+        transform:
+            none !important;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .nav-logo {
+        color: #ffffff;
+
+        font-size: 10px;
+
+        letter-spacing: 1.5px;
+    }
+
+
+    .nav-links {
+        gap: 18px;
+    }
+
+
+    .hero h1 {
+        color: #ffffff;
+
+        font-size: 42px;
+    }
+
+
+    .role {
+        color: #ffffff;
+
+        font-size: 9px;
+    }
+
+
+    .section-content h2 {
+        color: #ffffff;
+
+        font-size: 42px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE PROFILE
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .profile-container {
+        grid-template-columns: 1fr;
+
+        gap: 70px;
+    }
+
+
+    .profile-title {
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                58px,
+                16vw,
+                90px
+            );
+
+        letter-spacing: -5px;
+    }
+
+
+    .profile-description {
+        color: #ffffff;
+
+        font-size: 16px;
+
+        margin-top: 40px;
+    }
+
+
+    .profile-tech {
+        gap: 8px;
+
+        margin-top: 30px;
+    }
+
+
+    .profile-tech span {
+        padding:
+            8px 10px;
+
+        color: #ffffff;
+
+        font-size: 8px;
+
+        letter-spacing: 1.5px;
+    }
+
+
+    .profile-visual {
+        width:
+            min(
+                380px,
+                85vw
+            );
+
+        margin: 0 auto;
+    }
+
+
+    .profile-core {
+        width: 150px;
+
+        height: 150px;
+    }
+
+
+    .marker-one {
+        right: 0;
+    }
+
+
+    .marker-two {
+        left: 0;
+    }
+
+
+    .marker-three {
+        right: 10%;
+    }
+
+
+    .marker-four {
+        left: 0;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE EXPERIENCE
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .experience-header {
+        margin-bottom: 70px;
+    }
+
+
+    .experience-header h2 {
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                45px,
+                13vw,
+                70px
+            );
+
+        letter-spacing: -3px;
+    }
+
+
+    .experience-header p {
+        color: #ffffff;
+
+        font-size: 15px;
+    }
+
+
+    .experience-timeline {
+        padding-top: 20px;
+
+        padding-left: 30px;
+    }
+
+
+    .timeline-line {
+        left: 5px;
+
+        transform: none;
+    }
+
+
+    .experience-item,
+    .experience-item:nth-child(even) {
+
+        width: 100%;
+
+        margin-left: 0;
+
+        padding:
+            0 0 70px 30px;
+
+        transform:
+            translateY(40px);
+    }
+
+
+    .experience-item.experience-visible {
+        transform:
+            translateY(0);
+    }
+
+
+    .experience-marker,
+    .experience-item:nth-child(even)
+    .experience-marker {
+
+        left: -13px;
+
+        right: auto;
+
+        width: 27px;
+
+        height: 27px;
+
+        color: #00c8ff;
+
+        font-size: 8px;
+    }
+
+
+    .experience-card {
+        padding: 22px;
+    }
+
+
+    .experience-meta {
+        align-items: flex-start;
+
+        color: #ffffff;
+    }
+
+
+    .experience-company {
+        color: #00c8ff;
+
+        font-size: 9px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .experience-status {
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        padding:
+            4px 6px;
+    }
+
+
+    .experience-card h3 {
+        color: #ffffff;
+
+        font-size: 22px;
+    }
+
+
+    .experience-card p {
+        color: #ffffff;
+
+        font-size: 13px;
+    }
+
+
+    .experience-item::before,
+    .experience-item:nth-child(even)::before {
+
+        position: static;
+
+        display: block;
+
+        margin-bottom: 12px;
+
+        color: #ffffff;
+
+        font-size: 8px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE PROJECTS
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .projects-header {
+        margin-bottom: 45px;
+    }
+
+
+    /* =====================================================
+       PROJECTS HEADING
+    ===================================================== */
+
+    .projects-header h2 {
+        margin-top: 10px;
+
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                52px,
+                15vw,
+                82px
+            );
+
+        font-weight: 500;
+
+        line-height: 0.9;
+
+        letter-spacing: -4px;
+    }
+
+
+    .projects-header h2 span {
+        color: #00c8ff;
+    }
+
+
+    .projects-header p {
+        color: #ffffff;
+
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =====================================================
+       PROJECT INTERFACE
+    ===================================================== */
+
+    .projects-interface {
+        grid-template-columns: 1fr;
+
+        min-height: auto;
+    }
+
+
+    /* =====================================================
+       PROJECT INDEX
+    ===================================================== */
+
+    .project-index {
+        display: grid;
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        border-right: 0;
+
+        border-bottom:
+            1px solid var(--line);
+    }
+
+
+    .project-index-item {
+        min-height: 90px;
+
+        padding: 18px;
+
+        gap: 12px;
+
+        color: #ffffff;
+    }
+
+
+    .project-index-item:nth-child(odd) {
+        border-right:
+            1px solid
+            rgba(139, 148, 158, 0.12);
+    }
+
+
+    .project-index-item:nth-child(3),
+    .project-index-item:nth-child(4) {
+        border-bottom: 0;
+    }
+
+
+    .project-index-item:hover {
+        color: #00c8ff;
+    }
+
+
+    .project-number {
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .project-name {
+        color: #ffffff;
+
+        font-size: 8px;
+
+        line-height: 1.4;
+
+        letter-spacing: 1.5px;
+    }
+
+
+    /* =====================================================
+       PROJECT DISPLAY
+    ===================================================== */
+
+    .project-display {
+        min-height: 620px;
+
+        padding:
+            30px 22px;
+    }
+
+
+    .project-category {
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .project-title {
+        margin-top: 45px;
+
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                36px,
+                10vw,
+                55px
+            );
+
+        font-weight: 500;
+
+        line-height: 0.98;
+
+        letter-spacing: -2px;
+    }
+
+
+    .project-description {
+        color: #ffffff;
+
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+
+    .project-tech span {
+        color: #ffffff;
+
+        font-size: 8px;
+    }
+
+
+    /* =====================================================
+       PROJECT VISUAL
+    ===================================================== */
+
+    .project-visual {
+        padding-top: 13%;
+        right: 50%;
+
+        bottom: 75px;
+
+        width: 200px;
+
+        height: 200px;
+
+        transform:
+            translateX(50%);
+    }
+
+
+    /* =====================================================
+       PROJECT FOOTER
+    ===================================================== */
+
+    .project-display-footer {
+        left: 22px;
+
+        right: 22px;
+
+        color: #ffffff;
+
+        font-size: 8px;
+    }
+
+
+    .project-footer-number {
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE CONTACT
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .contact-header {
+        margin-bottom: 50px;
+    }
+
+
+    .contact-header h2 {
+        margin-top: 10px;
+
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                52px,
+                15vw,
+                75px
+            );
+
+        font-weight: 500;
+
+        line-height: 0.9;
+
+        letter-spacing: -4px;
+    }
+
+
+    .contact-header h2 span {
+        color: #00c8ff;
+    }
+
+
+    .contact-header p {
+        color: #ffffff;
+
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+
+    /* =====================================================
+       CONTACT GRID
+    ===================================================== */
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* =====================================================
+       CONTACT CARD
+    ===================================================== */
+
+    .contact-card {
+        min-height: 190px;
+
+        padding: 25px;
+    }
+
+
+    .contact-card-icon {
+        width: 42px;
+
+        height: 42px;
+    }
+
+
+    .contact-card-icon svg {
+        width: 19px;
+
+        height: 19px;
+    }
+
+
+    .contact-card-arrow {
+        font-size: 18px;
+    }
+
+
+    .contact-card-label {
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .contact-card-value {
+        font-size: 11px;
+
+        letter-spacing: 1px;
+
+        line-height: 1.5;
+
+        overflow-wrap: anywhere;
+    }
+
+
+    /* =====================================================
+       CONTACT FOOTER
+    ===================================================== */
+
+    .contact-footer {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+
+        margin-top: 50px;
+
+        padding-top: 18px;
+
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .navbar {
+        padding:
+            12px 15px;
+    }
+
+
+    .nav-links {
+        gap: 16px;
+    }
+
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+
+    .status {
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .status .line {
+        width: 28px;
+    }
+
+
+    .role {
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .profile-title {
+        font-size:
+            clamp(
+                52px,
+                17vw,
+                75px
+            );
+
+        letter-spacing: -4px;
+    }
+
+
+    .experience-header h2 {
+        font-size:
+            clamp(
+                42px,
+                14vw,
+                60px
+            );
+
+        letter-spacing: -3px;
+    }
+
+
+    .projects-header h2 {
+        font-size:
+            clamp(
+                48px,
+                16vw,
+                68px
+            );
+
+        letter-spacing: -4px;
+    }
+
+
+    .project-display {
+        padding:
+            25px 18px;
+    }
+
+
+    .project-title {
+        font-size:
+            clamp(
+                34px,
+                10vw,
+                48px
+            );
+    }
+
+
+    .project-visual {
+        width: 180px;
+
+        height: 180px;
+    }
+
+
+    .project-display-footer {
+        left: 18px;
+
+        right: 18px;
+    }
+
+
+    /* =====================================================
+       SMALL CONTACT
+    ===================================================== */
+
+    .contact-header h2 {
+        font-size: 48px;
+
+        letter-spacing: -4px;
+    }
+
+
+    .contact-card {
+        min-height: 175px;
+
+        padding: 22px;
+    }
+
+
+    .contact-card-icon {
+        width: 40px;
+
+        height: 40px;
+    }
+
+
+    .contact-card-icon svg {
+        width: 18px;
+
+        height: 18px;
+    }
+
+
+    .contact-card-value {
+        font-size: 10px;
+    }
+
+
+    .contact-footer {
+        gap: 10px;
+
+        font-size: 8px;
+    }
+
+}
+
+/* =========================================================
+   MOBILE SKILLS & CERTIFICATIONS
+========================================================= */
+
+@media (max-width: 800px) {
+
+    /* =====================================================
+       SKILLS SECTION
+    ===================================================== */
+
+    .skills-interface{
+        display: block;
+    }
+
+    .skills-section {
+        overflow: hidden;
+    }
+
+
+    .skills-header {
+        margin-bottom: 55px;
+    }
+
+
+    .skills-header h2 {
+        margin-top: 10px;
+
+        color: #ffffff;
+
+        font-size:
+            clamp(
+                48px,
+                14vw,
+                75px
+            );
+
+        font-weight: 500;
+
+        line-height: 0.92;
+
+        letter-spacing: -4px;
+    }
+
+
+    .skills-header h2 span {
+        color: #00c8ff;
+    }
+
+
+    .skills-header p {
+        max-width: 100%;
+
+        margin-top: 30px;
+
+        color: #ffffff;
+
+        font-size: 15px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =====================================================
+       SKILLS GRID
+    ===================================================== */
+
+    .skills-grid {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+    }
+
+
+    /* =====================================================
+       SKILL GROUP
+    ===================================================== */
+
+    .skill-group {
+        padding: 22px;
+
+        border:
+            1px solid var(--line);
+
+        background:
+            rgba(255, 255, 255, 0.015);
+
+        transition:
+            border-color 0.3s ease,
+            background 0.3s ease;
+    }
+
+
+    .skill-group:hover {
+        border-color:
+            rgba(0, 200, 255, 0.35);
+
+        background:
+            rgba(0, 200, 255, 0.025);
+    }
+
+
+    .skill-group-label {
+        display: block;
+
+        margin-bottom: 18px;
+
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        letter-spacing: 3px;
+    }
+
+
+    /* =====================================================
+       SKILL LIST
+    ===================================================== */
+
+    .skill-list {
+        display: flex;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+
+    .skill-list span {
+        padding:
+            8px 10px;
+
+        border:
+            1px solid
+            rgba(0, 200, 255, 0.25);
+
+        background:
+            rgba(255, 255, 255, 0.02);
+
+        color: #ffffff;
+
+        font-size: 8px;
+
+        letter-spacing: 1.5px;
+
+        line-height: 1.4;
+    }
+
+
+    /* =====================================================
+       CERTIFICATIONS
+    ===================================================== */
+
+    .certifications {
+        margin-top: 70px;
+    }
+
+
+    .certifications-header {
+        margin-bottom: 30px;
+    }
+
+
+    .certifications-header h3 {
+        color: #ffffff;
+
+        font-size: 26px;
+
+        font-weight: 500;
+
+        letter-spacing: -1px;
+    }
+    
+
+
+    .certifications-header h3 span {
+        color: #00c8ff;
+    }
+
+
+    .certification-list {
+        display: block;
+
+        grid-template-columns: 1fr;
+
+        gap: 3px;
+    }
+
+
+    .certification-item {
+        display: flex;
+
+        align-items: center;
+
+        gap: 15px;
+
+        padding:
+            16px 18px;
+
+        border:
+            1px solid var(--line);
+
+        background:
+            rgba(255, 255, 255, 0.015);
+
+        color: #ffffff;
+    }
+
+
+    .certification-number {
+        flex-shrink: 0;
+
+        color: #00c8ff;
+
+        font-size: 8px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .certification-name {
+        color: #ffffff;
+
+        font-size: 9px;
+
+        letter-spacing: 1.2px;
+
+        line-height: 1.5;
+    }
+
+}
