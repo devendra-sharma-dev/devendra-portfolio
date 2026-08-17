@@ -1283,3 +1283,238 @@
     }
 
 }
+
+/* =========================================================
+   MOBILE BLOG PREVIEW
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .blog-preview-section {
+        min-height: auto;
+
+        padding:
+            100px 25px;
+    }
+
+
+    .blog-preview-container {
+        width: 100%;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    .blog-preview-header {
+        margin-bottom: 45px;
+    }
+
+
+    .blog-preview-header .section-label {
+        margin-bottom: 20px;
+
+        font-size: 9px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .blog-preview-header h2 {
+        font-size:
+            clamp(
+                52px,
+                15vw,
+                75px
+            );
+
+        line-height: 0.9;
+
+        letter-spacing: -4px;
+    }
+
+
+    .blog-preview-header p {
+        margin-top: 30px;
+
+        color: #ffffff;
+
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+
+    /* =====================================================
+       BLOG CARDS
+    ===================================================== */
+
+    .blog-preview-list {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+
+    .blog-preview-card {
+        grid-template-columns: 42px 1fr;
+
+        min-height: 0;
+    }
+
+
+    .blog-preview-number {
+        padding-top: 25px;
+
+        font-size: 8px;
+    }
+
+
+    .blog-preview-content {
+        padding:
+            25px 20px;
+    }
+
+
+    .blog-preview-meta {
+        margin-bottom: 20px;
+
+        font-size: 7px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .blog-preview-content h3 {
+        font-size:
+            clamp(
+                28px,
+                8vw,
+                40px
+            );
+
+        letter-spacing: -1.5px;
+    }
+
+
+    .blog-preview-content p {
+        margin-top: 20px;
+
+        color: #ffffff;
+
+        font-size: 13px;
+
+        line-height: 1.75;
+    }
+
+
+    /* =====================================================
+       BUTTON
+    ===================================================== */
+
+    .blog-preview-action {
+        justify-content: flex-start;
+
+        margin-top: 30px;
+    }
+
+
+    .blog-preview-button {
+        min-width: 175px;
+
+        padding:
+            14px 20px;
+
+        font-size: 8px;
+
+        letter-spacing: 2.5px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .blog-preview-section {
+        padding:
+            90px 20px;
+    }
+
+
+    .blog-preview-header h2 {
+        font-size: 48px;
+
+        letter-spacing: -4px;
+    }
+
+
+    .blog-preview-card {
+        grid-template-columns:
+            36px 1fr;
+    }
+
+
+    .blog-preview-content {
+        padding:
+            22px 16px;
+    }
+
+
+    .blog-preview-content h3 {
+        font-size: 27px;
+    }
+
+
+    .blog-preview-content p {
+        font-size: 12px;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .blog-preview-section {
+        padding:
+            85px 18px;
+    }
+
+
+    .blog-preview-header h2 {
+        font-size: 43px;
+
+        letter-spacing: -3px;
+    }
+
+
+    .blog-preview-card {
+        grid-template-columns:
+            32px 1fr;
+    }
+
+
+    .blog-preview-content {
+        padding:
+            20px 14px;
+    }
+
+
+    .blog-preview-content h3 {
+        font-size: 24px;
+    }
+
+
+    .blog-preview-button {
+        width: 100%;
+    }
+
+}

@@ -3292,6 +3292,306 @@ body {
     letter-spacing: 2px;
 }
 
+/* =========================================================
+   BLOG PREVIEW
+========================================================= */
+
+.blog-preview-section {
+    min-height: 100vh;
+
+    padding:
+        140px 60px;
+}
+
+
+.blog-preview-container {
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.blog-preview-header {
+    max-width: 800px;
+
+    margin-bottom: 70px;
+}
+
+
+.blog-preview-header .section-label {
+    display: block;
+
+    margin-bottom: 25px;
+
+    color: #00c8ff;
+
+    font-size: 10px;
+
+    letter-spacing: 4px;
+}
+
+
+.blog-preview-header h2 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            60px,
+            8vw,
+            105px
+        );
+
+    font-weight: 500;
+
+    line-height: 0.9;
+
+    letter-spacing: -6px;
+}
+
+
+.blog-preview-header h2 span {
+    display: block;
+
+    color: #00c8ff;
+}
+
+
+.blog-preview-header p {
+    max-width: 650px;
+
+    margin-top: 35px;
+
+    color: var(--muted);
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   BLOG LIST
+========================================================= */
+
+.blog-preview-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   BLOG CARD
+========================================================= */
+
+.blog-preview-card {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 60px 1fr;
+
+    min-height: 270px;
+
+    border:
+        1px solid var(--line);
+
+    background:
+        rgba(5, 8, 13, 0.55);
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+
+.blog-preview-card:hover {
+    transform:
+        translateY(-5px);
+
+    border-color:
+        rgba(0, 200, 255, 0.45);
+
+    background:
+        rgba(0, 200, 255, 0.025);
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.blog-preview-number {
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: center;
+
+    padding-top: 30px;
+
+    border-right:
+        1px solid var(--line);
+
+    color: #00c8ff;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.blog-preview-content {
+    padding:
+        30px;
+}
+
+
+.blog-preview-meta {
+    margin-bottom: 25px;
+
+    color: #00c8ff;
+
+    font-size: 8px;
+
+    letter-spacing: 3px;
+}
+
+
+.blog-preview-content h3 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            28px,
+            3vw,
+            42px
+        );
+
+    font-weight: 500;
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+}
+
+
+.blog-preview-content p {
+    max-width: 500px;
+
+    margin-top: 25px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   BLOG ACTION
+========================================================= */
+
+.blog-preview-action {
+    display: flex;
+
+    justify-content: flex-end;
+
+    margin-top: 35px;
+}
+
+
+/* =========================================================
+   GO TO BLOG BUTTON
+========================================================= */
+
+.blog-preview-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 14px;
+
+    min-width: 180px;
+
+    padding:
+        15px 22px;
+
+    border:
+        1px solid #00c8ff;
+
+    background:
+        rgba(0, 200, 255, 0.08);
+
+    color: #00c8ff;
+
+    font-size: 9px;
+
+    font-weight: 500;
+
+    letter-spacing: 3px;
+
+    text-decoration: none;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.blog-preview-button span {
+    font-size: 16px;
+
+    line-height: 1;
+
+    transition:
+        transform 0.25s ease;
+}
+
+
+.blog-preview-button:hover {
+    background:
+        #00c8ff;
+
+    border-color:
+        #00c8ff;
+
+    color:
+        #05080d;
+
+    transform:
+        translateY(-2px);
+}
+
+
+.blog-preview-button:hover span {
+    transform:
+        translate(3px, -3px);
+}
+
 
 /* =========================================================
    GLOBAL TEXT VISIBILITY RULE
